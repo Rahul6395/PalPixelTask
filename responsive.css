@@ -1,0 +1,1940 @@
+  
+  
+   /* Media Query for Mobile Devices */
+   @media (min-width: 268px) and (max-width: 340px) {
+   
+    /* Hamburger */
+   
+    .fa-bars{
+        display:block!important;
+        font-size: 24px;
+        margin-right: 0px!important;
+        cursor: pointer;
+    }
+    .mainSlideSection{
+        display: flex;
+        position: relative;
+        height: 850px!important;   
+        /* border:1px solid red */
+    }
+    .headerMainCon::before{
+        width: 78%!important;
+        content: " ";
+        background-image: url('./images/m-loop1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 0%;
+        top: 0px;
+        height:550px;
+    }
+    .hearIconCon{
+        width:36px !important;
+        height:36px!important ;
+        top:82px!important;
+        left:-16px!important;
+    
+    }
+    .hearIconCon .fa-heart{
+    font-size: 6%!important;
+    width:20px !important;
+    height:20px!important ;
+    }
+    
+    .playIconCon{
+        position: absolute;
+        top:150px!important;
+        left:83.5%!important;
+        width:55px !important;
+        height:55px !important;
+    }
+    .playIconCon .innerO{
+        width:36px!important ;
+        height:36px!important ;         
+    }
+    .playIconCon .innerZ{
+        width:22px !important;
+        height:22px !important;          
+    }
+    .playIconCon .fa-play{
+    font-size: 6px!important;
+    width:11px !important;
+    height:11px!important ;
+    padding-left: 1px!important;
+    padding-top: 1px!important;
+    }
+    .mainSlideSection {
+        display: flex;
+        justify-content: center;
+        align-items:center
+    }
+    .sliderCon{width: 250px!important;
+        height: 250px!important;
+        border-radius:100%;
+        border:1px solid #00000016;
+        position: static;
+        position: relative;
+        top:-220px!important;
+        left:-6%!important
+      
+    }
+    .sliderCon img{
+        width:215px !important;
+        height:215px !important;
+        border-radius:100%
+        }
+       
+        .skinCareText p{
+            position: absolute;
+            top:360px!important;
+            left:2%!important;
+        }
+
+      
+        .skinCareText::before{
+            background-image: none;
+           
+        }
+   
+    .mainHeading{
+        width: 100%!important;
+        margin: auto;
+      position: absolute;  
+      top: 420px!important;
+      right:inherit;
+      left:2%!important;
+      display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .heading{
+     margin-bottom: 10px; 
+    }
+    .mainHeading .pgh{
+        width:80%;
+        /* margin: auto; */
+    }
+    
+    .pgh{ 
+        text-align: start; 
+    }
+    
+    .switchBtnCon{
+        position: absolute;  
+        top:700px!important;
+        left:2%!important;
+    }
+    .switchBtn{
+
+        gap: 18px;
+        margin-top: 10px;
+    }
+   
+   
+    
+    
+    
+    .lgImgConSection{
+        overflow: hidden;
+    }
+    
+    .lgImgCon{
+        width: 100%;
+        margin: auto;
+    }
+    .lgImgCon img{
+        width: 100%;
+        height: 122px;
+        border-radius:0px;
+        object-fit: cover;
+    }
+   
+    .lgImgConSection::before{
+        width: 0px;
+        content: " ";
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        right: 0;
+        top:0px;
+        height:0px;
+    
+    }
+    
+    /* good education */
+    .goodEduConSection{
+        overflow: hidden;
+        position: relative;
+    }
+    .goodEduCon{
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+        position: relative;
+    }
+    .goodEduCon .heading2{
+        width: 95%!important;
+        margin: auto;
+        font-weight: 400;
+        font-size: 50px!important;
+        line-height: 51px;
+        font-family: Alumni Sans;
+        color:var(--green);
+        letter-spacing: 1px; 
+    }
+    .goodEduCon h1{
+        text-align: start;
+    }
+    .goodEduCon .pgh{
+        padding-top: 16px;
+        width:95%!important;
+    margin:auto;
+    text-align: start;
+    }
+    
+    /* slider */
+    .sliderMainCon{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        margin-top: 50px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap:15px;
+        padding: 0 15px;
+    }
+    .sliderMainCon::-webkit-scrollbar{
+        display: none;
+    }
+    .imgBoxCon{
+        position: relative;
+        overflow: unset;
+    }
+    .imgBoxCon img{
+    width: 160px;
+    height: 156px;
+    border-radius:20px;
+    z-index: 1;
+    
+    }
+    .imgBoxCon:hover .hoverPgh{
+        transform: translate(0px);
+    
+        z-index: 1;
+        transition: 0.5s;
+    } 
+    .imgBoxCon .hoverPgh{
+        width:244px ;
+        height:191px ;
+        border-radius:19px;
+        background-color:var(--lightBrown);
+        position: absolute;
+        top: 17px;
+        left:20px;
+        opacity: 0.8;
+        transform: translate(0);
+        transition: 0.5s;
+        display: none;
+    }
+    .imgBoxCon .hoverPgh p{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: sans-serif;
+        color:var(--white);
+        letter-spacing: 2px; 
+        padding: 16px;
+        opacity: 0.6;
+        display: none;
+    }
+
+
+    .webDesignSection{
+        overflow: hidden;
+    }
+    .webDesignMainCon{
+        width: 95%!important;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:center;
+        margin-top: 50px;
+        position: relative;
+        padding-bottom: 25px;
+    
+    }
+    
+    .leftHeadingCon{
+        width: 100%;
+        margin: auto;
+    }
+    .leftHeadingCon p{
+        width: 95%!important;
+        text-align: left;
+        font-size: 15px;
+        
+    }
+    
+    .counterCon{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+       width: 90%!important;
+       margin-top: 20px;
+    }
+            
+    .designImgCon img{
+    width:95% ;
+    height: 380px; ;
+    object-fit: contain;
+    }
+    .goodEduCon::before{
+        width: 00px;
+        content: " ";
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        left: 0%;
+        top: 0;
+        height:0px;
+    }
+ 
+    
+    .designImgCon::after{
+        width: 0px;
+        content: " ";
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: 0%;
+       top: 0px;
+        height:0px;
+    }
+    footer{width: 100%;
+        height: fit-content;
+        background-image:none;
+        background-repeat:no-repeat;
+        background-size:cover;
+     /* margin-top: 120px; */
+      
+    }
+    footer::before{
+        content: '';
+        display: block;
+        position: absolute;
+        background-color: #ffffff;
+        opacity: 1;
+        width: 100%;
+        height: 0;
+        
+    }
+    
+    .footerCon{    
+      position: relative;
+    }
+    .linksMainCon{
+    width: 92%!important;
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    gap:42px;
+    align-items:flex-start;
+    position: static;
+    left: 0;
+    top:0;
+    flex-wrap:wrap;
+    padding-bottom: 20px;
+    }
+    
+    .colOne h3{
+        color:var(--black);
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 33px;
+        font-family: poppins;
+        letter-spacing: 0.5px;
+        margin-bottom: 20px;
+    }
+    .colOne button{ color:var(--white);
+        width: 186px;
+        height: 50px;
+        border-radius:10px;
+        background-color:var(--green);
+        font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: poppins;
+    border:none
+    
+    }
+    .colOne ul li{list-style: none;
+        margin-bottom: 20px;
+    }
+    .colOne ul li a{
+        text-decoration: none;
+        color:var(--black);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: poppins;
+    letter-spacing: 0.5px;
+    
+    }
+    
+    .infoCon{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        align-items:start;
+        flex-direction: column-reverse;
+        /* padding-top: 50px; */
+    gap: 15px;
+    position: static;
+    left: 0;
+    top:0px
+    }
+    .linkConFooter{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        margin-bottom: 30px;
+    }
+    .linkConFooter a{    text-decoration: none;
+        color:var(--black);
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        font-family: poppins;
+        letter-spacing: -0.2px;padding-right: 4px;
+    }
+    .footerLogoCon img{
+        width: 200px;
+        height: 50px;
+    }
+    
+    
+}
+  /* Media Query for Mobile Devices */
+    @media (max-width: 480px) {
+             
+        /* Header */
+        .fa-bars{
+            display:block!important;
+            font-size: 24px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .headerMainCon{
+           margin-top: 44px;
+        }
+        .logoCon{
+            margin-top: 0px;
+        }
+        .logoCon img{
+        width: 156px;
+        height: 53px;
+        object-fit: contain;
+        }
+        .headerMainCon nav a{
+          display: none;
+        }
+        .signUpBtn{
+           display: none;
+        }
+          .headerMainCon::before{
+            width: 300px;
+            content: " ";
+            background-image: url('./images/m-loop1.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 0%;
+            top: 0px;
+            height:550px;
+        }
+        /* Hamburger */
+        .fa-xmark{font-size: 20px;
+            position: absolute;
+            top:20px;
+            right: 20px;
+            cursor: pointer;
+        }
+.headerHamburger{
+    display: block;
+    width: 100%;
+    height: 230px;
+    background-color:var(--white);
+    transform: translateY(-350px);
+    transition: 1s;
+    position: absolute;
+    top:0;
+    box-shadow: 0px 0px 5px grey
+}
+.headerHamburger nav{
+    margin-top: 20px;
+}
+.headerHamburger nav a{
+    width: 80%;
+    margin: auto;
+    color: var(--black);
+    opacity: 0.6;
+    text-decoration: none;
+    /* padding-right: 30px; */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+    font-family: Poppins;
+    display: block;
+    background-color:var(--white)
+  }
+
+
+        
+        /* main */
+        main::-webkit-scrollbar{
+            display: none;
+        }
+        main{
+            position: relative;
+            width: 100%;
+            overflow-x: hidden;
+        
+        }
+        
+        .mainSlideSection{
+            display: flex;
+            position: relative;
+            height: 950px;   
+            /* border:1px solid red */
+        }
+       
+        .hearIconCon{
+            width:41px ;
+            height:41px ;
+            top:106px;
+            left:-19px;
+        
+        }
+        .hearIconCon .fa-heart{
+        font-size: 9px;
+        width:24px ;
+        height:24px ;
+        }
+        
+        .playIconCon{
+            position: absolute;
+            top:177px;
+            left:84.5%;
+            width:66px ;
+            height:66px ;
+        }
+        .playIconCon .innerO{
+            width:44px ;
+            height:44px ;         
+        }
+        .playIconCon .innerZ{
+            width:27px ;
+            height:27px ;          
+        }
+        .playIconCon .fa-play{
+        font-size: 8px;
+        width:13px ;
+        height:13px ;
+        padding-left: 1px;
+        padding-top: 1px;
+        }
+        .mainSlideSection {
+            display: flex;
+            justify-content: center;
+            align-items:center
+        }
+        .sliderCon{width: 299px;
+            height: 299px;
+            border-radius:100%;
+            border:1px solid #00000016;
+            position: static;
+            position: relative;
+            top:-220px;
+            left:0
+          
+        }
+        .sliderCon img{
+            width:259px ;
+            height:259px;
+            border-radius:100%
+            }
+           
+            .skinCareText p{
+                position: absolute;
+                top:430px;
+                left:9%;
+            }
+    
+          
+            .skinCareText::before{
+                background-image: none;
+               
+            }
+       
+        .mainHeading{
+            width: 90%;
+            margin: auto;
+          position: absolute;  
+          top: 520px;;
+          right:inherit;
+          left:9%;
+          display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+        }
+        .heading{
+         margin-bottom: 10px; 
+        }
+        .mainHeading .pgh{
+            width:80%;
+            /* margin: auto; */
+        }
+        
+        .pgh{ 
+            text-align: start; 
+        }
+        
+        .switchBtnCon{
+            position: absolute;  
+            top:800px;;
+            left:9%;
+        }
+        .switchBtn{
+   
+            gap: 18px;
+            margin-top: 10px;
+        }
+       
+       
+        
+        
+        
+        .lgImgConSection{
+            overflow: hidden;
+        }
+        
+        .lgImgCon{
+            width: 100%;
+            margin: auto;
+        }
+        .lgImgCon img{
+            width: 100%;
+            height: 122px;
+            border-radius:0px;
+            object-fit: cover;
+        }
+       
+        .lgImgConSection::before{
+            width: 0px;
+            content: " ";
+            background-image: none;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            right: 0;
+            top:0px;
+            height:0px;
+        
+        }
+        
+        /* good education */
+        .goodEduConSection{
+            overflow: hidden;
+            position: relative;
+        }
+        .goodEduCon{
+            width: 100%;
+            margin: auto;
+            margin-top: 30px;
+            position: relative;
+        }
+        .goodEduCon .heading2{
+            width: 85%;
+            margin: auto;
+            font-weight: 400;
+            font-size: 56px;
+            line-height: 51px;
+            font-family: Alumni Sans;
+            color:var(--green);
+            letter-spacing: 1px; 
+        }
+        .goodEduCon h1{
+            text-align: start;
+        }
+        .goodEduCon .pgh{
+            padding-top: 16px;
+            width:85%;
+        margin:auto;
+        text-align: start;
+        }
+        
+        /* slider */
+        .sliderMainCon{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            margin-top: 50px;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            gap:15px;
+            padding: 0 15px;
+        }
+        .sliderMainCon::-webkit-scrollbar{
+            display: none;
+        }
+        .imgBoxCon{
+            position: relative;
+            overflow: unset;
+        }
+        .imgBoxCon img{
+        width: 160px;
+        height: 156px;
+        border-radius:20px;
+        z-index: 1;
+        
+        }
+        .imgBoxCon:hover .hoverPgh{
+            transform: translate(0px);
+        
+            z-index: 1;
+            transition: 0.5s;
+        } 
+        .imgBoxCon .hoverPgh{
+            width:244px ;
+            height:191px ;
+            border-radius:19px;
+            background-color:var(--lightBrown);
+            position: absolute;
+            top: 17px;
+            left:20px;
+            opacity: 0.8;
+            transform: translate(0);
+            transition: 0.5s;
+            display: none;
+        }
+        .imgBoxCon .hoverPgh p{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            font-family: sans-serif;
+            color:var(--white);
+            letter-spacing: 2px; 
+            padding: 16px;
+            opacity: 0.6;
+            display: none;
+        }
+
+
+        .webDesignSection{
+            overflow: hidden;
+        }
+        .webDesignMainCon{
+            width: 85%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items:center;
+            margin-top: 50px;
+            position: relative;
+            padding-bottom: 25px;
+        
+        }
+        
+        .leftHeadingCon{
+            width: 100%;
+            margin: auto;
+        }
+        .leftHeadingCon p{
+            width: 85%;
+            text-align: left;
+            font-size: 15px;
+            
+        }
+        
+        .counterCon{
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+           width: 80%;
+           margin-top: 20px;
+        }
+                
+        .designImgCon img{
+        width:95% ;
+        height: 380px; ;
+        object-fit: contain;
+        }
+        .goodEduCon::before{
+            width: 00px;
+            content: " ";
+            background-image: none;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 0%;
+            top: 0;
+            height:0px;
+        }
+     
+        
+        .designImgCon::after{
+            width: 0px;
+            content: " ";
+            background-image: none;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            right: 0%;
+           top: 0px;
+            height:0px;
+        }
+        footer{width: 100%;
+            height: fit-content;
+            background-image:none;
+            background-repeat:no-repeat;
+            background-size:cover;
+         /* margin-top: 120px; */
+          
+        }
+        footer::before{
+            content: '';
+            display: block;
+            position: absolute;
+            background-color: #ffffff;
+            opacity: 1;
+            width: 100%;
+            height: 0;
+            
+        }
+        
+        .footerCon{    
+          position: relative;
+        }
+        .linksMainCon{
+        width: 82%;
+        margin: auto;
+        display: flex;
+        /* justify-content: space-between; */
+        gap:42px;
+        align-items:flex-start;
+        position: static;
+        left: 0;
+        top:0;
+        flex-wrap:wrap;
+        padding-bottom: 20px;
+        }
+        
+        .colOne h3{
+            color:var(--black);
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            font-family: poppins;
+            letter-spacing: 0.5px;
+            margin-bottom: 20px;
+        }
+        .colOne button{ color:var(--white);
+            width: 186px;
+            height: 50px;
+            border-radius:10px;
+            background-color:var(--green);
+            font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: poppins;
+        border:none
+        
+        }
+        .colOne ul li{list-style: none;
+            margin-bottom: 20px;
+        }
+        .colOne ul li a{
+            text-decoration: none;
+            color:var(--black);
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 25px;
+        font-family: poppins;
+        letter-spacing: 0.5px;
+        
+        }
+        
+        .infoCon{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            align-items:start;
+            flex-direction: column-reverse;
+            /* padding-top: 50px; */
+        gap: 15px;
+        position: static;
+        left: 0;
+        top:0px
+        }
+        .linkConFooter{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            margin-bottom: 30px;
+        }
+        .linkConFooter a{    text-decoration: none;
+            color:var(--black);
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            font-family: poppins;
+            letter-spacing: -0.2px;padding-right: 4px;
+        }
+        .footerLogoCon img{
+            width: 200px;
+            height: 50px;
+        }
+        
+        
+    }
+     
+    /* Media Query for low resolution  Tablets, Ipads */
+    @media (min-width: 340px) and (max-width: 666px) {
+         /* Header */
+         .fa-bars{
+            display:block!important;
+            font-size: 24px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .headerMainCon{
+           margin-top: 44px;
+        }
+        .logoCon{
+            margin-top: 0px;
+        }
+        .logoCon img{
+        width: 156px;
+        height: 53px;
+        object-fit: contain;
+        }
+        .headerMainCon nav a{
+          display: none;
+        }
+        .signUpBtn{
+           display: none;
+        }
+          .headerMainCon::before{
+            width: 300px;
+            content: " ";
+            background-image: url('./images/m-loop1.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 0%;
+            top: 0px;
+            height:550px;
+        }
+        /* Hamburger */
+        .fa-xmark{font-size: 20px;
+            position: absolute;
+            top:20px;
+            right: 20px;
+            cursor: pointer;
+        }
+.headerHamburger{
+    display: block;
+    width: 100%;
+    height: 230px;
+    background-color:var(--white);
+    transform: translateY(-350px);
+    transition: 1s;
+    position: absolute;
+    top:0;
+    box-shadow: 0px 0px 5px grey
+}
+.headerHamburger nav{
+    margin-top: 20px;
+}
+.headerHamburger nav a{
+    width: 80%;
+    margin: auto;
+    color: var(--black);
+    opacity: 0.6;
+    text-decoration: none;
+    /* padding-right: 30px; */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 34px;
+    font-family: Poppins;
+    display: block;
+    background-color:var(--white)
+  }
+
+
+        
+        /* main */
+        main::-webkit-scrollbar{
+            display: none;
+        }
+        main{
+            position: relative;
+            width: 100%;
+            overflow-x: hidden;
+        
+        }
+        
+        .mainSlideSection{
+            display: flex;
+            position: relative;
+            height: 950px;   
+            /* border:1px solid red */
+        }
+       
+        .hearIconCon{
+            width:41px ;
+            height:41px ;
+            top:106px;
+            left:-19px;
+        
+        }
+        .hearIconCon .fa-heart{
+        font-size: 9px;
+        width:24px ;
+        height:24px ;
+        }
+        
+        .playIconCon{
+            position: absolute;
+            top:177px;
+            left:84.5%;
+            width:66px ;
+            height:66px ;
+        }
+        .playIconCon .innerO{
+            width:44px ;
+            height:44px ;         
+        }
+        .playIconCon .innerZ{
+            width:27px ;
+            height:27px ;          
+        }
+        .playIconCon .fa-play{
+        font-size: 8px;
+        width:13px ;
+        height:13px ;
+        padding-left: 1px;
+        padding-top: 1px;
+        }
+        .mainSlideSection {
+            display: flex;
+            justify-content: center;
+            align-items:center
+        }
+        .sliderCon{width: 299px;
+            height: 299px;
+            border-radius:100%;
+            border:1px solid #00000016;
+            position: static;
+            position: relative;
+            top:-220px;
+            left:0
+          
+        }
+        .sliderCon img{
+            width:259px ;
+            height:259px;
+            border-radius:100%
+            }
+           
+            .skinCareText p{
+                position: absolute;
+                top:430px;
+                left:9%;
+            }
+    
+          
+            .skinCareText::before{
+                background-image: none;
+               
+            }
+       
+        .mainHeading{
+            width: 90%;
+            margin: auto;
+          position: absolute;  
+          top: 520px;;
+          right:inherit;
+          left:9%;
+          display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+        }
+        .heading{
+         margin-bottom: 10px; 
+        }
+        .mainHeading .pgh{
+            width:80%;
+            /* margin: auto; */
+        }
+        
+        .pgh{ 
+            text-align: start; 
+        }
+        
+        .switchBtnCon{
+            position: absolute;  
+            top:800px;;
+            left:9%;
+        }
+        .switchBtn{
+   
+            gap: 18px;
+            margin-top: 10px;
+        }
+       
+       
+        
+        
+        
+        .lgImgConSection{
+            overflow: hidden;
+        }
+        
+        .lgImgCon{
+            width: 100%;
+            margin: auto;
+        }
+        .lgImgCon img{
+            width: 100%;
+            height: 122px;
+            border-radius:0px;
+            object-fit: cover;
+        }
+       
+        .lgImgConSection::before{
+            width: 0px;
+            content: " ";
+            background-image: none;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            right: 0;
+            top:0px;
+            height:0px;
+        
+        }
+        
+        /* good education */
+        .goodEduConSection{
+            overflow: hidden;
+            position: relative;
+        }
+        .goodEduCon{
+            width: 100%;
+            margin: auto;
+            margin-top: 30px;
+            position: relative;
+        }
+        .goodEduCon .heading2{
+            width: 85%;
+            margin: auto;
+            font-weight: 400;
+            font-size: 56px;
+            line-height: 51px;
+            font-family: Alumni Sans;
+            color:var(--green);
+            letter-spacing: 1px; 
+        }
+        .goodEduCon h1{
+            text-align: start;
+        }
+        .goodEduCon .pgh{
+            padding-top: 16px;
+            width:85%;
+        margin:auto;
+        text-align: start;
+        }
+        
+        /* slider */
+        .sliderMainCon{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            margin-top: 50px;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            gap:15px;
+            padding: 0 15px;
+        }
+        .sliderMainCon::-webkit-scrollbar{
+            display: none;
+        }
+        .imgBoxCon{
+            position: relative;
+            overflow: unset;
+        }
+        .imgBoxCon img{
+        width: 160px;
+        height: 156px;
+        border-radius:20px;
+        z-index: 1;
+        
+        }
+        .imgBoxCon:hover .hoverPgh{
+            transform: translate(0px);
+        
+            z-index: 1;
+            transition: 0.5s;
+        } 
+        .imgBoxCon .hoverPgh{
+            width:244px ;
+            height:191px ;
+            border-radius:19px;
+            background-color:var(--lightBrown);
+            position: absolute;
+            top: 17px;
+            left:20px;
+            opacity: 0.8;
+            transform: translate(0);
+            transition: 0.5s;
+            display: none;
+        }
+        .imgBoxCon .hoverPgh p{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            font-family: sans-serif;
+            color:var(--white);
+            letter-spacing: 2px; 
+            padding: 16px;
+            opacity: 0.6;
+            display: none;
+        }
+
+
+        .webDesignSection{
+            overflow: hidden;
+        }
+        .webDesignMainCon{
+            width: 85%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items:center;
+            margin-top: 50px;
+            position: relative;
+            padding-bottom: 25px;
+        
+        }
+        
+        .leftHeadingCon{
+            width: 100%;
+            margin: auto;
+        }
+        .leftHeadingCon p{
+            width: 85%;
+            text-align: left;
+            font-size: 15px;
+            
+        }
+        
+        .counterCon{
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+           width: 80%;
+           margin-top: 20px;
+        }
+                
+        .designImgCon img{
+        width:95% ;
+        height: 380px; ;
+        object-fit: contain;
+        }
+        .goodEduCon::before{
+            width: 00px;
+            content: " ";
+            background-image: none;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: 0%;
+            top: 0;
+            height:0px;
+        }
+     
+        
+        .designImgCon::after{
+            width: 0px;
+            content: " ";
+            background-image: none;
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            right: 0%;
+           top: 0px;
+            height:0px;
+        }
+        footer{width: 100%;
+            height: fit-content;
+            background-image:none;
+            background-repeat:no-repeat;
+            background-size:cover;
+         /* margin-top: 120px; */
+          
+        }
+        footer::before{
+            content: '';
+            display: block;
+            position: absolute;
+            background-color: #ffffff;
+            opacity: 1;
+            width: 100%;
+            height: 0;
+            
+        }
+        
+        .footerCon{    
+          position: relative;
+        }
+        .linksMainCon{
+        width: 82%;
+        margin: auto;
+        display: flex;
+        /* justify-content: space-between; */
+        gap:42px;
+        align-items:flex-start;
+        position: static;
+        left: 0;
+        top:0;
+        flex-wrap:wrap;
+        padding-bottom: 20px;
+        }
+        
+        .colOne h3{
+            color:var(--black);
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            font-family: poppins;
+            letter-spacing: 0.5px;
+            margin-bottom: 20px;
+        }
+        .colOne button{ color:var(--white);
+            width: 186px;
+            height: 50px;
+            border-radius:10px;
+            background-color:var(--green);
+            font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: poppins;
+        border:none
+        
+        }
+        .colOne ul li{list-style: none;
+            margin-bottom: 20px;
+        }
+        .colOne ul li a{
+            text-decoration: none;
+            color:var(--black);
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 25px;
+        font-family: poppins;
+        letter-spacing: 0.5px;
+        
+        }
+        
+        .infoCon{
+            width: 90%;
+            margin: auto;
+            display: flex;
+            align-items:start;
+            flex-direction: column-reverse;
+            /* padding-top: 50px; */
+        gap: 15px;
+        position: static;
+        left: 0;
+        top:0px
+        }
+        .linkConFooter{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            margin-bottom: 30px;
+        }
+        .linkConFooter a{    text-decoration: none;
+            color:var(--black);
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            font-family: poppins;
+            letter-spacing: -0.2px;padding-right: 4px;
+        }
+        .footerLogoCon img{
+            width: 200px;
+            height: 50px;
+        }
+        
+    }
+     
+   
+
+    @media (min-width: 1125px) and (max-width: 1255px){
+      
+        /* main */
+        main::-webkit-scrollbar{
+            display: none;
+        }
+        main{
+            position: relative;
+            width: 100%;
+            overflow-x: hidden;
+        
+        }
+        
+        .mainSlideSection{
+            display: flex;
+            position: relative;
+            height: 680px;   
+            /* border:1px solid red */
+        }
+        
+        
+        .sliderCon img{
+        width:450px ;
+        height:450px;
+        border-radius:100%
+        }
+        
+        .skinCareText p{
+            position: absolute;
+            top:100px;
+            left:7.5%;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            font-family: Poppins;
+            color:var(--black);
+            opacity: 0.4;
+            letter-spacing: 1px;
+        }
+        .skinCareText::before{
+            width: 300px;
+            content: " ";
+            background-image: url('./images/loop1.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: -7%;
+            top: -60px;
+            height:550px;
+        }
+        .hearIconCon{
+            width:80px ;
+            height:80px ;
+            border-radius:100%;
+            background-color:var(--green10);
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            z-index: -1;
+            position: absolute;
+            top:170px;
+            left:-38px;
+        
+        }
+        .hearIconCon .fa-heart{
+        font-size: 16px;
+        color:var(--white);
+        width:42px ;
+        height:42px ;
+        border-radius:100%;
+        background-color:var(--green);
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        z-index: 1;
+        }
+        
+        .playIconCon{
+            position: absolute;
+            top:280px;
+            left:83.5%;
+            width:132px ;
+            height:132px ;
+            border-radius:100%;
+            background-color:var(--green10);
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            z-index: -1;
+        }
+        .playIconCon .innerO{
+            width:80px ;
+            height:80px ;
+            border-radius:100%;
+            background-color:var(--green10);
+            display: flex;
+            justify-content: center;
+            align-items:center;
+          
+        }
+        .playIconCon .innerZ{
+            width:42px ;
+            height:42px ;
+            border-radius:100%;
+            background-color:var(--green);
+            display: flex;
+            justify-content: center;
+            align-items:center;
+          
+        }
+        .playIconCon .fa-play{
+        font-size: 12px;
+        color:var(--green);
+        width:22px ;
+        height:22px ;
+        padding-left: 2.5px;
+        padding-top: 1px;
+        border-radius:100%;
+        background-color:var(--white);
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        z-index: 1;
+        }
+        
+        .sliderCon{width: 502px;
+            height: 502px;
+            border-radius:100%;
+            border:1px solid #00000016;
+            /* border-left-color: rgb(235, 29, 11);
+            border-top-color: rgb(255, 0, 255);
+            border-right-color: darkgreen;
+            border-bottom-color: white; */
+            position: absolute;
+            left: 24%;
+            top:110px;
+            display: flex;
+            justify-content: center;
+            align-items:center
+        }
+        
+        .mainHeading{
+          position: absolute;  
+          top: 142px;;
+          right:5.5%;
+          display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: end;
+        }
+        .heading{
+            font-weight: 400;
+            font-size: 73px;
+            line-height: 70px;
+            font-family: Alumni Sans;
+            color:var(--green);
+            letter-spacing: -1px; 
+        }
+        .mainHeading .pgh{
+            width:220px;
+        }
+        
+        .pgh{
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 26px;
+            color:var(--black);
+            opacity: 0.4;
+            letter-spacing: 1px; 
+            text-align: right; 
+            font-family: sans-serif;
+        }
+        
+        .switchBtnCon{
+            position: absolute;  
+            top:440px;;
+            left:8%;
+        }
+        .switchBtn{
+            display: flex;
+            align-items:center;
+            gap: 18px;
+            margin-top: 18px;
+        }
+        .switchBtn span{
+         width: 17px;
+         height: 17px;
+        
+         border-radius:100%;
+         display: inline-block;
+        
+        }
+       
+        
+        .switchBtn h6{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            letter-spacing: 1px; 
+            font-family: poppins;
+        }
+        
+        .lgImgConSection{
+            overflow: hidden;
+        }
+        
+        .lgImgCon{
+            width: 90%;
+            margin: auto;
+        }
+        .lgImgCon img{
+            width: 720px;
+            height: 165px;
+        }
+        
+        .lgImgConSection::before{
+            width: 305px;
+            content: " ";
+            background-image: url('./images/loop2.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            right: 0;
+            top:558px;
+            height:515px;
+        
+        }
+        
+        /* good education */
+        .goodEduConSection{
+            overflow: hidden;
+            position: relative;
+        }
+        .goodEduCon{
+            width: 90%;
+            margin: auto;
+            margin-top: 50px;
+            position: relative;
+        }
+        .goodEduCon .heading2{
+            font-weight: 400;
+            font-size: 66px;
+            line-height: 71px;
+            font-family: Alumni Sans;
+            color:var(--green);
+            letter-spacing: -1px; 
+        }
+        .goodEduCon h1{
+            text-align: center;
+        }
+        .goodEduCon .pgh{
+            padding-top: 16px;
+            width:850px;
+        margin: auto;
+        text-align: center;
+        }
+        
+        /* slider */
+        .sliderMainCon{
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+        .imgBoxCon{
+            position: relative;
+            overflow: hidden;
+        }
+
+        .imgBoxCon .hoverPgh{
+            width:200px ;
+            height:178px ;
+            border-radius:19px;
+            background-color:var(--lightBrown);
+            position: absolute;
+            top: 17px;
+            left:20px;
+            opacity: 0.8;
+            transform: translate(0);
+            transition: 0.5s;
+        }
+        .imgBoxCon .hoverPgh p{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            font-family: sans-serif;
+            color:var(--white);
+            letter-spacing: 2px; 
+            padding: 16px;
+            opacity: 0.6;
+        }
+        .imgBoxCon img{
+            width: 240px;
+            height: 210px;
+            border-radius:20px;
+            z-index: 1;
+            
+            }
+
+        .imgBoxCon:hover .hoverPgh{
+            transform: translate(-270px);
+        
+            z-index: 1;
+            transition: 0.5s;
+        } 
+      
+        .webDesignSection{
+            overflow: hidden;
+        }
+        .webDesignMainCon{
+            width: 85%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            margin-top: 125px;
+            position: relative;
+            padding-bottom: 100px;
+        
+        }
+        
+        .leftHeadingCon{
+            width: 420px;
+        }
+        .leftHeadingCon p{
+            text-align: left;
+            font-size: 15px;
+            
+        }
+        
+        .counterCon{
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+           width: 80%;
+           margin-top: 50px;
+        }
+        .coustomerCon h2{
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 60px;
+            font-family: poppins;
+            color:var(--black);
+        
+        }
+        .coustomerCon h5{
+            margin-top: 10px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            font-family: poppins;
+            color:var(--black);
+            opacity: 0.4;
+        }
+        
+        .designImgCon img{
+        width:490px ;
+        height: 530px; ;
+        object-fit: contain;
+        }
+        .goodEduCon::before{
+            width: 300px;
+            content: " ";
+            background-image: url('./images/loop1.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: -9%;
+            top: 166px;
+            height:530px;
+        }
+        /* .goodEduConSection::before{
+            width: 300px;
+            content: " ";
+            background-image: url('./images/loop1.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: -11%;
+            top: -440px;
+            height:600px;
+        } */
+        /* .webDesignMainCon::before{
+            width: 300px;
+            content: " ";
+            background-image: url('./images/loop1.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            left: -11%;
+            top: -440px;
+            height:600px;
+        } */
+        
+        .designImgCon::after{
+            width: 260px;
+            content: " ";
+            background-image: url('./images/last.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            right: -28%;
+           top: 398px;
+            height:470px;
+        }
+        footer{width: 100%;
+            height: 450px;
+            background-image:url('./images/footer.png');
+            background-repeat:no-repeat;
+            background-size:cover;
+         /* margin-top: 120px; */
+          
+        }
+        footer::before{
+            content: '';
+            display: block;
+            position: absolute;
+            background-color: #000;
+            opacity: 0.5;
+            width: 100%;
+            height: 450px;
+            
+        }
+        
+        
+        .linksMainCon{
+        width: 85%;
+        margin: auto;
+        display: flex;
+        /* justify-content: space-between; */
+        gap:88px;
+        align-items:flex-start;
+        position: absolute;
+        left: 9%;
+        top:80px
+        }
+        
+        .colOne h3{
+            color:var(--white);
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            font-family: poppins;
+            letter-spacing: 0.5px;
+            margin-bottom: 20px;
+        }
+        .colOne button{ color:var(--white);
+            width: 160px;
+            height: 50px;
+            border-radius:10px;
+            background-color:var(--lightgreen);
+            font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: poppins;
+        border:none
+        
+        }
+        .colOne ul li{list-style: none;
+            margin-bottom: 20px;
+        }
+        .colOne ul li a{
+            text-decoration: none;
+            color:var(--white);
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 25px;
+        font-family: poppins;
+        letter-spacing: 0.5px;
+        
+        }
+        
+        .infoCon{
+            width: 82%;
+            margin: auto;
+            display: flex;
+            align-items:center;
+            /* padding-top: 50px; */
+        gap: 300px;
+        position: absolute;
+        left: 9%;
+        top:350px
+        }
+        .linkConFooter a{    text-decoration: none;
+            color:var(--white);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 23px;
+            font-family: poppins;
+            letter-spacing: -0.2px;padding-right: 40px;
+        }
+        .footerLogoCon img{
+            width: 205px;
+            height: 47px;
+        }
+        
+        
+        
+    }
+     
+    /* Media Query for Laptops and Desktops */
+    @media (min-width: 1255px) and (max-width: 1400px){
+        
+        .sliderCon{
+            left: 19%; 
+        }
+        .imgBoxCon .hoverPgh{
+            width:224px ;
+            height:180px ;
+            border-radius:19px;
+            background-color:var(--lightBrown);
+            position: absolute;
+            top: 17px;
+            left:20px;
+            opacity: 0.8;
+            transform: translate(0);
+            transition: 0.5s;
+        }
+        .imgBoxCon .hoverPgh p{
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 24px;
+            font-family: sans-serif;
+            color:var(--white);
+            letter-spacing: 2px; 
+            padding: 16px;
+            opacity: 0.6;
+        }
+        .imgBoxCon img{
+            width: 270px;
+            height: 218px;
+            border-radius:20px;
+            z-index: 1;
+            
+            }
+        
+        
+    }
+     
+   
